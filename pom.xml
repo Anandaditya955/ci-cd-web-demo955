@@ -8,7 +8,6 @@
     <artifactId>ci-cd-web-demo955</artifactId>
     <version>1.0</version>
 
-    <!-- IMPORTANT: WAR -->
     <packaging>war</packaging>
 
     <build>
