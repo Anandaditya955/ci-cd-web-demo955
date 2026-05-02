@@ -5,13 +5,24 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.demo</groupId>
-    <artifactId>ci-cd-web-demo955</artifactId>
+    <artifactId>simple-git-web-app</artifactId>
     <version>1.0</version>
 
     <packaging>war</packaging>
 
     <build>
-        <finalName>ci-cd-web-demo955</finalName>
+        <finalName>simple-git-web-app</finalName>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.5.1</version>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
 
 </project>
